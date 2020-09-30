@@ -7,8 +7,8 @@ def discounted (price,discount, max_discount=50):
     if discount >= max_discount :
         price_with_discount = price
     else : 
-        price_with_discount=price - (price * discount / 100)
+        price_with_discount = price - price * discount / 100
     return (price_with_discount)
 
-p = discounted (-69000, -90, 100)
-print (p)
+a = discounted (-69000, -90, 100)
+print (a)
